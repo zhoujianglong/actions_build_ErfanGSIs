@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://fsopen.coloros.com/3/oppowww/androidrom/pahm00/PAHM00_11_OTA_3090_all_zl3f9pDDviaO.ozip
-  ROM_NAME: OxygenOS
+  ROM_NAME: ColorOS
   TZ: Asia/Shanghai
 
 jobs:
