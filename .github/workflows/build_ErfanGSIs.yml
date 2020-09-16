@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20200619143919/PAFM00_11_OTA_3100_all_CSs2671wQRpJ.ozip
+  ROM_URL: https://cloud189-xizang-person.oos-xzls.ctyunapi.cn/735bd3a2-828d-4c55-a0e9-72d44dfb9a16.zip?response-content-disposition=attachment%3Bfilename%3D%22PAFM00_11_OTA_3140_all_ID25b1uENa3W.zip%22&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&x-amz-CLIENTTYPEIN=WEB&Signature=9mZFoQL%2Br7WYEW2/hQwwLj8Wbac%3D&x-amz-SHID=169966667&AWSAccessKeyId=532482dfdc85e5d60592&Expires=1600279880&x-amz-limitrate=10240&x-amz-FSIZE=3482970166&x-amz-UID=773316176&x-amz-UFID=41545211553861844
   ROM_NAME: Generic
   TZ: Asia/Shanghai
 
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer gof final/GSI.zip
+              ./transfer tmp final/GSI.zip
 
          
             
